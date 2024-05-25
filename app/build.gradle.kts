@@ -52,8 +52,8 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.gitlab.devart"
-            artifactId = "test-library"
+            groupId = "com.github.Jleonlml"
+            artifactId = "jitpack-test-library"
             version = "1.0"
 
             afterEvaluate {
